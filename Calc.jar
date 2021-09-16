@@ -1,0 +1,16 @@
+package com.calculadoraTeste;
+
+public class Calc{
+	
+	public int subtrair(String expressao) {
+		int sub = 10;
+		for (String valorSubtrair : expressao.split("\\-"))
+			sub-= Integer.valueOf(valorSubtrair);
+			//System.out.println(subtrai);
+		
+		System.out.println(subtrai);
+		return sub;
+		
+	}
+
+}

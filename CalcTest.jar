@@ -1,0 +1,16 @@
+package com.calculadoraTeste;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalcTest {
+
+	@Test
+	public void testSub() {
+		Calc c = new Calc();
+		int sub = calc.subtrair("5-5");
+		assertEquals(0,sub);
+	}
+
+}
